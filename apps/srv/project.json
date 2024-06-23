@@ -1,0 +1,31 @@
+{
+  "name": "srv",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/srv/src",
+  "projectType": "application",
+  "tags": ["server", "nest"],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "srv:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "srv:build:development"
+        },
+        "production": {
+          "buildTarget": "srv:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/srv/jest.config.ts"
+      }
+    }
+  }
+}
