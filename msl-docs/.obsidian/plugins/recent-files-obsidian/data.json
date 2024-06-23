@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "app msl",
+      "path": "app msl.md"
+    },
+    {
+      "basename": "design",
+      "path": "ui/design.md"
+    },
+    {
+      "basename": "app msl_screen",
+      "path": "app msl_screen.md"
+    },
+    {
+      "basename": "mysql",
+      "path": "mysql.md"
+    },
+    {
+      "basename": "Structure",
+      "path": "Structure.canvas"
+    },
+    {
+      "basename": "directus",
+      "path": "directus.md"
+    },
+    {
+      "basename": "app srv",
+      "path": "app srv.md"
+    },
+    {
       "basename": "README.MD",
       "path": "README.MD.md"
     }
